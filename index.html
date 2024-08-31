@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bat Ball Stump game </h1>
+
+
+
+
+    <button class="choosebtn" onclick="
+     let computerChoose =  generateComputerChoose();
+     let resultMsg = getresult('Bat' , computerChoose);
+   
+ showResult('Bat',computerChoose,resultMsg)
+    
+    ">
+<img src="./images/bat.png" alt="-imgbat images" class="choose">
+
+</button>
+
+    
+    <button class="choosebtn" onclick="
+    // const userMsg = ('you have choose bat '); 
+   computerChoose = generateComputerChoose()
+
+   
+   resultMsg = getresult('Ball' , computerChoose)
+ showResult('Ball',computerChoose,resultMsg)
+    
+    "><img src="./images/ball.png" alt="-imgball images" class="choose">
+</button>
+    
+    
+    <button class="choosebtn" onclick="
+    // const userMsg = ('you have choose bat '); 
+     computerChoose = generateComputerChoose()
+   
+     resultMsg = getresult('Stump' , computerChoose)
+   
+     showResult('Stump',computerChoose,resultMsg)
+ 
+    
+    "><img src="./images/stump.png" alt="-imgstump images" class="choose">
+  
+</button>
+ 
+<h3 id="User-move"></h3>
+<h3 id="computer-move"></h3>
+<h3 id="result"></h3>
+<h3 id="score"></h3>
+
+
+
+<button class="re-btn" onclick="localStorage.clear()
+resetscore( );
+
+ 
+"><b>Reset</b> </button>
+
+
+
+
+
+<script src="app.js">
+ 
+</script>
+    
+</body>
+</html>

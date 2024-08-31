@@ -1,0 +1,114 @@
+
+body{
+    text-align: center;
+}
+
+.choosebtn{
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(164, 212,130);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.choose{
+    height: 75px;
+}
+.re-btn{
+    width: 300PX;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(164, 212,130);
+} 
+
+
+
+
+
+@media (min-width: 199px){
+    .choosebtn {
+        height: 60px;
+        width: 60px;
+    }
+
+    .choose {
+        height: 40px;
+    }
+
+    .re-btn {
+        width: 250px;
+    }
+
+}
+
+
+@media (min-width: 576px) {
+    .choosebtn {
+        height: 100px;
+        width:  100px;
+    }
+
+    .choose {
+        height: 75px;
+    }
+
+    .re-btn {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .choosebtn {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choose {
+        height: 75px;
+    }
+
+    .re-btn {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .choosebtn {
+        height: 140px;
+        width: 140px;
+    }
+
+    .choose {
+        height: 100px;
+    }
+
+    .re-btn {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+}
